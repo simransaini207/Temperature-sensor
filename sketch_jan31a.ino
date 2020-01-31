@@ -3,7 +3,7 @@
 #include <SoftwareSerial.h>
 SoftwareSerial SwSerial(10, 11);
 #include <BlynkSimpleStream.h>
-char auth[] = "2e73bf0a03b64bbebf5529d3a31f9264";
+char auth[] = "2e73bf0a03b64bbebfd3a31f9264";
 void setup()
 {
   pinMode(3,OUTPUT);
